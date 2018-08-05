@@ -1,10 +1,12 @@
-package com.example.demo.student;
+package com.example.demo.student.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.example.demo.student.model.Student;
 
 @Service
 public class StudentService {
