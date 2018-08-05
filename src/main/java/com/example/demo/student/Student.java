@@ -9,7 +9,6 @@ public class Student {
 		
 	}
 	
-	
 	public Student(int id, String name) {
 		super();
 		this.id = id;

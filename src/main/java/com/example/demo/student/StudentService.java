@@ -16,6 +16,10 @@ public class StudentService {
 		return mylist;
 	}
 	
+	public Student getStudent(int id) {
+		return mylist.stream().filter(t->t.getId()==id).findFirst().get();
+	}
+	
 	public int addStudent(Student student) {
 		int count= mylist.size();
 		mylist.add(student);
